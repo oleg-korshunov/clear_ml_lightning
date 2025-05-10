@@ -19,8 +19,8 @@ class Cfg:
 
     max_epochs = 10
 
-    path_train = "../data/sign_mnist_train.csv"
-    path_val = "../data/sign_mnist_test.csv"
+    path_train = "./data/sign_mnist_train.csv"
+    path_val = "./data/sign_mnist_test.csv"
 
 
 class SignLanguageDataset(data.Dataset):
